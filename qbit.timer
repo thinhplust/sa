@@ -1,0 +1,7 @@
+[Unit]
+Description=Run qbittorent after 1min of boot
+[Timer]
+OnBootSec=1min
+
+[Install]
+WantedBy=timers.target
